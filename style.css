@@ -234,6 +234,16 @@ a {
     transform: rotate(-2deg);
 }
 
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 140px 140px 18px 18px;
+    transform: rotate(-2deg);
+    object-position: center;
+}
+
 .photo-placeholder span {
     font-size: 100px;
     font-weight: 800;
@@ -282,6 +292,24 @@ a {
 .about-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 16px 35px rgba(75, 0, 31, 0.16);
+}
+
+.about-photo {
+    width: 180px;
+    height: 210px;
+    display: block;
+    margin: 0 auto 28px;
+    object-fit: cover;
+    border: 4px solid var(--maroon);
+    border-radius: 90px 90px 16px 16px;
+    box-shadow: var(--shadow);
+}
+
+@media (max-width: 600px) {
+    .about-photo {
+        width: 150px;
+        height: 175px;
+    }
 }
 
 
