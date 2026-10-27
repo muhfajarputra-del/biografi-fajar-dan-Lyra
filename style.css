@@ -129,7 +129,7 @@ a {
 ========================= */
 .hero {
     min-height: 570px;
-    padding: 80px 10%;
+    padding: 80px 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -202,18 +202,18 @@ a {
 
 /* FOTO PROFIL */
 .hero-image {
-    flex: 0 1 340px;
+    flex: 0 1 380px;
     display: flex;
     justify-content: center;
     animation: fadeUp 0.9s 0.2s ease both;
 }
 
 .photo-frame {
-    width: 300px;
-    height: 350px;
-    padding: 12px;
+    width: 380px;
+    height: 250px;
+    padding: 10px;
     border: 3px solid var(--maroon);
-    border-radius: 150px 150px 25px 25px;
+    border-radius: 42px 62px 18px 12px;
     background: #f0ded7;
     box-shadow: var(--shadow);
     animation: floatPhoto 4s ease-in-out infinite;
@@ -239,7 +239,7 @@ a {
     height: 100%;
     display: block;
     object-fit: cover;
-    border-radius: 140px 140px 18px 18px;
+    border-radius: 32px 52px 11px 8px;
     transform: rotate(-2deg);
     object-position: center;
 }
@@ -258,7 +258,7 @@ a {
    BAGIAN UMUM
 ========================= */
 .section {
-    padding: 85px 10%;
+    padding: 85px 8%;
 }
 
 .section-heading {
@@ -279,7 +279,7 @@ a {
 }
 
 .about-card {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 35px;
     border: 1px solid #f0dfe0;
@@ -354,7 +354,7 @@ a {
 }
 
 .timeline {
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
     border-left: 3px solid var(--maroon);
     padding-left: 30px;
@@ -496,7 +496,7 @@ a {
 }
 
 .contact-card {
-    max-width: 650px;
+    max-width: 720px;
     margin: auto;
     padding: 35px;
     text-align: center;
@@ -542,8 +542,8 @@ footer {
     }
 
     .photo-frame {
-        width: 250px;
-        height: 300px;
+        width: 330px;
+        height: 220px;
     }
 
     .section {
@@ -590,8 +590,8 @@ footer {
     }
 
     .photo-frame {
-        width: 220px;
-        height: 260px;
+        width: min(92vw, 300px);
+        height: 200px;
     }
 
     .photo-placeholder span {
